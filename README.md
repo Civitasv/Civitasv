@@ -6,6 +6,8 @@
 
 Hi, I'm Civitasv, a passionate self-taught C++ developer. And I'm also very interested at Web.
 
+<img align="right" alt="GIF" src="https://github.com/Civitasv/Civitasv/blob/master/code.gif?raw=true" width="500" height="320" />
+
 Languages I know:
 
 - C++
@@ -24,8 +26,6 @@ Framework I used:
 - Vue
 - Flutter
 - Spring
-
-<img align="right" alt="GIF" src="https://github.com/Civitasv/Civitasv/blob/master/code.gif?raw=true" width="500" height="320" />
 
 Also, 💬 ask me about anything, I am happy to help;
 
