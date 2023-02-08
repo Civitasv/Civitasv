@@ -2,11 +2,9 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=Civitasv.Civitasv)
 
-<br />
+<img alt="GIF" src="https://github.com/Civitasv/Civitasv/blob/master/code.gif?raw=true" width="500" height="320" />
 
 Hi, I'm Civitasv, a passionate C++ developer.
-
-<img align="right" alt="GIF" src="https://github.com/Civitasv/Civitasv/blob/master/code.gif?raw=true" width="500" height="320" />
 
 Languages I like:
 - C++(It's so powerful, though I can't handle it).
