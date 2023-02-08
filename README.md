@@ -34,7 +34,7 @@ Most exiting projects I've done:
 3. A Nice-looking lightweight console ASCII line charts, using C++, no dependencies: [asciichart](https://github.com/Civitasv/asciichart)
 4. A Tiny JSON Parser: [mini-json-parser](https://github.com/Civitasv/mini-json-parser)
 5. Scheme Interpreter in C++: [scxx](https://github.com/Civitasv/scxx)
-6. Simple http server in C++, using socket and epoll: [tcp_sevr](https://github.com/Civitasv/scxx)
+6. Simple http server in C++, using socket and epoll: [tcp_sevr](https://github.com/Civitasv/tcp_sevr)
 7. A QRCode generator: [qrcode](https://github.com/Civitasv/learning-cplusplus/tree/master/qrcode)
 8. Render Image and Video in terminal: [term_image](https://github.com/Civitasv/learning-cplusplus/tree/master/term_image)
 9. to be continued...
