@@ -16,6 +16,7 @@ Languages I used:
 - Dart(I once used it to develope Flutter, but I froget all about it).
 - Javascript/Typescript(I also like web development).
 - Python(Mostly for prototype).
+- CUDA(for high performance computing).
 
 GUI framework I used:
 - GTK
@@ -39,7 +40,7 @@ Most exiting projects I've done:
 8. Render Image and Video in terminal: [term_image](https://github.com/Civitasv/learning-cplusplus/tree/master/term_image)
 9. to be continued...
 
-Also, 💬 ask me about anything, I am happy to help;
+Also, 💬 ask me about anything, I am happy to help.
 
 📈 my Github stats
 
