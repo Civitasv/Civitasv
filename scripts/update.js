@@ -9,7 +9,7 @@ const baseDir = path.dirname(scriptsDir)
 const conf = {
   repo: {
     base: "Civitasv/Civitasv",
-    branch: "main",
+    branch: "master",
   },
   imgDir: "assets",
   api: "https://github-readme-stats-eight-topaz-65.vercel.app/api",
