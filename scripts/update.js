@@ -26,6 +26,10 @@ const conf = {
 
 const data = [
   {
+    kind: "content",
+    content: "Hi, I'm Civitasv, a passionate C++ developer. 💬 Ask me about anything, I am happy to help."
+  },
+  {
     kind: "section",
     title: "Neovim Projects",
     cards: [
@@ -163,6 +167,10 @@ function renderSection({ title, cards }) {
   ].join("")
 }
 
+function renderContent({ content }) {
+  return `<p>${content}</p>`
+}
+
 function renderNode({ kind, ...rest }) {
   switch (kind) {
     case "repo":
@@ -173,6 +181,8 @@ function renderNode({ kind, ...rest }) {
       return "---\n"
     case "section":
       return renderSection(rest)
+    case "content":
+      return renderContent(rest)
     default:
       throw new Error(`Unknown card kind: ${kind}`)
   }
