@@ -168,7 +168,7 @@ function renderSection({ title, cards }) {
 }
 
 function renderContent({ content }) {
-  return `<p>${content}</p>`
+  return `<p>${content}</p>\n`
 }
 
 function renderNode({ kind, ...rest }) {
