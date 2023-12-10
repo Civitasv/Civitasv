@@ -1,47 +1,37 @@
-### hey there
+### Neovim Projects
 
-![](https://visitor-badge.glitch.me/badge?page_id=Civitasv.Civitasv)
+<div float="left">
+<a href="https://github.com/Civitasv/cmake-tools.nvim#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-cmake-tools.nvim-dark.svg#gh-dark-mode-only" alt="CMake integration in Neovim"></a>
+<a href="https://github.com/Civitasv/cmake-tools.nvim#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-cmake-tools.nvim-light.svg#gh-light-mode-only" alt="CMake integration in Neovim"></a>
+&nbsp;
+<a href="https://github.com/Civitasv/runvim#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-runvim-dark.svg#gh-dark-mode-only" alt="Beautiful, fast, functional Configuration for Neovim."></a>
+<a href="https://github.com/Civitasv/runvim#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-runvim-light.svg#gh-light-mode-only" alt="Beautiful, fast, functional Configuration for Neovim."></a>
+&nbsp;
+</div>
 
-<img alt="GIF" src="https://github.com/Civitasv/Civitasv/blob/master/code.gif?raw=true" width="500" height="320" />
+### C++ Projects
 
-Hi, I'm Civitasv, a passionate C++ developer.
+<div float="left">
+<a href="https://github.com/Civitasv/asciichart#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-asciichart-dark.svg#gh-dark-mode-only" alt="Nice-looking lightweight console ASCII line charts, using C++, no dependencies."></a>
+<a href="https://github.com/Civitasv/asciichart#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-asciichart-light.svg#gh-light-mode-only" alt="Nice-looking lightweight console ASCII line charts, using C++, no dependencies."></a>
+&nbsp;
+<a href="https://github.com/Civitasv/mini-json-parser#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-mini-json-parser-dark.svg#gh-dark-mode-only" alt="A Tiny Json Parser"></a>
+<a href="https://github.com/Civitasv/mini-json-parser#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-mini-json-parser-light.svg#gh-light-mode-only" alt="A Tiny Json Parser"></a>
+&nbsp;
+</div>
 
-Languages I like:
-- C++(It's so powerful, though I can't handle it).
-- JavaScript(It's so easy, though I can't handle it).
+### Other Projects
 
-Languages I used:
-- Java(My old favorite, but things change, I'm not a big fan of OOP anymore).
-- Lisp(Mostly because SICP and Emacs).
-- Dart(I once used it to develope Flutter, but I froget all about it).
-- Javascript/Typescript(I also like web development).
-- Python(Mostly for prototype).
-- CUDA(for high performance computing).
+<div float="left">
+<a href="https://github.com/Civitasv/AMapPoi#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-AMapPoi-dark.svg#gh-dark-mode-only" alt="POI 搜索工具、地理编码工具"></a>
+<a href="https://github.com/Civitasv/AMapPoi#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-AMapPoi-light.svg#gh-light-mode-only" alt="POI 搜索工具、地理编码工具"></a>
+&nbsp;
+</div>
 
-GUI framework I used:
-- GTK
-- SDL2
-- raygui
+---
 
-Web framework I used:
-- React(I like it very much).
-- Angular(Not a big fan).
-- Vue(I like it very much).
-- Flutter(Sounds really cool).
-
-Most exiting projects I've done:
-1. My Neovim configuration: [runvim](https://github.com/Civitasv/runvim)
-2. My Neovim plugin for CMake: [cmake-tools.nvim](https://github.com/Civitasv/cmake-tools.nvim)
-3. A Nice-looking lightweight console ASCII line charts, using C++, no dependencies: [asciichart](https://github.com/Civitasv/asciichart)
-4. A Tiny JSON Parser: [mini-json-parser](https://github.com/Civitasv/mini-json-parser)
-5. Scheme Interpreter in C++: [scxx](https://github.com/Civitasv/scxx)
-6. Simple http server in C++, using socket and epoll: [tcp_sevr](https://github.com/Civitasv/tcp_sevr)
-7. A QRCode generator: [qrcode](https://github.com/Civitasv/learning-cplusplus/tree/master/qrcode)
-8. Render Image and Video in terminal: [term_image](https://github.com/Civitasv/learning-cplusplus/tree/master/term_image)
-9. to be continued...
-
-Also, 💬 ask me about anything, I am happy to help.
-
-📈 my Github stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=Civitasv&show_icons=true&theme=gotham" alt="Civitasv" />
+<div float="left">
+<a href="https://github.com/Civitasv#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-dark.svg#gh-dark-mode-only" alt="Civitasv's GitHub Stats"></a>
+<a href="https://github.com/Civitasv#gh-light-mode-only"><img src="https://raw.githubusercontent.com/Civitasv/Civitasv/main/assets/Civitasv-light.svg#gh-light-mode-only" alt="Civitasv's GitHub Stats"></a>
+&nbsp;
+</div>

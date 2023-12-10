@@ -1,0 +1,14 @@
+{
+  "name": "Civitasv",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node scripts/update.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.2.2"
+  }
+}
