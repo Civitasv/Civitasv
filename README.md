@@ -1,3 +1,4 @@
+<p>Hi, I'm Civitasv, a passionate C++ developer. 💬 Ask me about anything, I am happy to help.</p>
 ### Neovim Projects
 
 <div float="left">
