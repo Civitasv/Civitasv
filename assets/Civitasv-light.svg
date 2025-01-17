@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">HuSen's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 1250, Total Commits  : 1250, Total PRs: 54, Total Issues: 15, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 1251, Total Commits  : 1251, Total PRs: 54, Total Issues: 15, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 59.00732476415848;
+        stroke-dashoffset: 59.004848095202775;
       }
     }
   
