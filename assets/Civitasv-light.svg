@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Tatah's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 1497, Total Commits  : 1497, Total PRs: 55, Total Issues: 15, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 1498, Total Commits  : 1498, Total PRs: 55, Total Issues: 15, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 66.83063841567967;
+        stroke-dashoffset: 66.82888926453248;
       }
     }
   
