@@ -11,7 +11,7 @@ const conf = {
     base: "Civitasv/Civitasv",
     branch: "master",
   },
-  imgDir: "assets",
+  imgDir: "assets/v2",
   api: "https://github-readme-stats.vercel.app/api",
   styles: {
     light: {},
