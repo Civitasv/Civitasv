@@ -1,9 +1,9 @@
 import fetch from "node-fetch"
 import fs from "node:fs/promises"
 import path from "node:path"
+import { fileURLToPath } from "node:url"
 
-const importMeta = import.meta
-const scriptsDir = path.dirname(importMeta.url.replace("file://", ""))
+const scriptsDir = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.dirname(scriptsDir)
 
 const conf = {
@@ -12,7 +12,7 @@ const conf = {
     branch: "master",
   },
   imgDir: "assets",
-  api: "https://github-readme-stats-eight-topaz-65.vercel.app/api",
+  api: "https://github-readme-stats.vercel.app/api",
   styles: {
     light: {},
     dark: {
@@ -122,7 +122,6 @@ function renderUserCardStyle({ user, description, style }) {
   const search = new URLSearchParams({
     username: user,
     show_icons: true,
-    include_all_commits: true,
     ...conf.styles[style],
   })
   return [
@@ -188,17 +187,60 @@ function renderNode({ kind, ...rest }) {
   }
 }
 
+function isSvg(buffer) {
+  const text = buffer.toString("utf8", 0, Math.min(buffer.length, 2048))
+  const head = text.trimStart()
+  return (
+    (head.startsWith("<svg") || head.startsWith("<?xml")) &&
+    !text.includes("Something went wrong") &&
+    !text.includes("DEPLOYMENT_PAUSED")
+  )
+}
+
+async function fetchSvg(url) {
+  let lastError
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const img = await fetch(url)
+      if (!img.ok) {
+        throw new Error(`HTTP ${img.status} ${img.statusText}`)
+      }
+      const buffer = Buffer.from(await img.arrayBuffer())
+      if (!isSvg(buffer)) {
+        throw new Error(
+          `non-SVG response: ${buffer.toString("utf8", 0, 120).replace(/\s+/g, " ").trim()}`
+        )
+      }
+      return buffer
+    } catch (error) {
+      lastError = error
+      if (attempt < 3) {
+        await new Promise((resolve) => setTimeout(resolve, 1000 * attempt))
+      }
+    }
+  }
+  throw lastError
+}
+
 const content = data.map(renderNode).join("\n")
 
 for (const [key, url] of imgCache.entries()) {
   const imgPath = path.join(baseDir, conf.imgDir, key)
-  const imgDir = path.dirname(imgPath)
-  await fs.mkdir(imgDir, { recursive: true })
-  console.log(`Fetching ${url}`)
-  const img = await fetch(url)
-  const buffer = await img.arrayBuffer()
+  let svg
+  try {
+    console.log(`Fetching ${url}`)
+    svg = await fetchSvg(url)
+  } catch (error) {
+    const cached = await fs.readFile(imgPath).catch(() => null)
+    if (cached && isSvg(cached)) {
+      console.warn(`Keeping cached ${key}: ${error.message}`)
+      continue
+    }
+    throw new Error(`Failed to fetch a valid SVG for ${key}: ${error.message}`)
+  }
+  await fs.mkdir(path.dirname(imgPath), { recursive: true })
   console.log(`Writing ${imgPath}`)
-  await fs.writeFile(imgPath, Buffer.from(buffer))
+  await fs.writeFile(imgPath, svg)
 }
 
 console.log(`Writing README.md`)
